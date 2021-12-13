@@ -72,7 +72,7 @@ Since the time difference is very small, it is converted to [fs (femtosecond)](h
 
 ![time_d_europe](time_d_europe.png) 
 
-### United States of America Time Dilation Contour Graph
+### United States of America Time Dilation Contour Graph (Except Alaska State)
 
 ![time_d_us](time_d_us.png) 
 
