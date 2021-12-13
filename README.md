@@ -21,26 +21,33 @@ Gravitational time dilation is a form of time dilation, an actual difference of 
 
 Gravitational time dilation was first described by Albert Einstein in 1907 as a consequence of special relativity in accelerated frames of reference. In general relativity, it is considered to be a difference in the passage of proper time at different positions as described by a metric tensor of space-time. The existence of gravitational time dilation was first confirmed directly by the Pound–Rebka experiment in 1959, and later refined by Gravity Probe A and other experiments.
 
-Soruce:
- - https://en.wikipedia.org/wiki/Gravitational_time_dilation
-
 The gravitational time dilation expression:
 
-![time_d_formula](time_d_formula.png)
+<p align="center">
+    <img src="time_d_formula.png"> 
+</p>
 
 has such a small second term in the denominator that excessive numerical accuracy is required to evaluate it directly. Using a binomial expansion:
 
-![time_dilation_formula_binom](time_dilation_formula_binom.jpg)
+<p align="center">
+    <img src="time_dilation_formula_binom.jpg"> 
+</p>
 
 so that the first approximation to the time expression is:
 
-![time_d_formula_time](time_d_formula_time.png)  
+<p align="center">
+    <img src="time_d_formula_time.png"> 
+</p>
 
 The numerical values were calculated using g = grav (m/s2)array in MATLAB, R = R array in MATLAB (geoid height(m) + h_over_geoid(m)), and c=2.997E8 m/s.
 
-## Time Dilation:
+Soruce:
+ - https://en.wikipedia.org/wiki/Gravitational_time_dilation
+ - http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/gratim.html#c5 
 
-Since the time difference is very small, it is converted to fs (femtosecond). This unit is equivalent to 1E-15 seconds. 15389587415.8 fs value has been added on fs to indicate sensitivity and to indicate it on the graph.
+## Time Dilation on MATLAB:
+
+Since the time difference is very small, it is converted to [fs (femtosecond)](https://en.wikipedia.org/wiki/Femtosecond). This unit is equivalent to 1E-15 seconds. 15389587415.8 fs value has been added on fs to indicate sensitivity and to indicate it on the graph.
 
 **Calculating Time Dilation on MATLAB**
 
