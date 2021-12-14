@@ -64,19 +64,19 @@ Since the time difference is very small, it is converted to [fs (femtosecond)](h
 	  t_dil(k)=((1/sqrt((1-((2*dat1(k).*R(k))/c^2))))*1E15)-15389587415.8;
 	  
 
-### Earth Time Dilation Contour Graph
+### Earth Time Dilation Contour Plot
 
 ![time_d_earth](time_d_earth.png)
 
-### Europe Time Dilation Contour Graph
+### Europe Time Dilation Contour Plot
 
 ![time_d_europe](time_d_europe.png) 
 
-### United States of America Time Dilation Contour Graph (Except Alaska State)
+### United States of America Time Dilation Contour Plot (Except Alaska State)
 
 ![time_d_us](time_d_us.png) 
 
-If you want to plot 3D of contour map, please type these on command window:
+If you want to plot 3D of contour plot, please type these on command window:
 
     surf(X,Y,Z);
     xlabel('Longitude');
