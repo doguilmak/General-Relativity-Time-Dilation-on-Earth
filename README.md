@@ -43,7 +43,7 @@ so that the first approximation to the time expression is:
 
 The numerical values were calculated using g = grav (m/s2)array in MATLAB, R = R array in MATLAB (geoid height(m) + h_over_geoid(m)), and c=2.997E8 m/s.
 
-Soruce:
+Soruces:
  - https://en.wikipedia.org/wiki/Gravitational_time_dilation
  - http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/gratim.html#c5 
 
