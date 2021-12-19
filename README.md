@@ -3,7 +3,7 @@
 
 ## Project Statement
 
-The aim of the project is plotting the time dilation based on gravity and height over geoid with contour lines on planet Earth.
+The aim of the project is plotting the time dilation based on gravity and height over geoid with contour lines on planet Earth. Calculated over the gravitational data applied by the Earth. Gravity of other celestial bodies (Moon, Sun etc.) was ignored.
 
 ## Dataset
 
