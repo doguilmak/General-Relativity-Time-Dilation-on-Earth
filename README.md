@@ -25,23 +25,17 @@ Gravitational time dilation was first described by Albert Einstein in 1907 as a 
 
 The gravitational time dilation expression:
 
-<p align="center">
-    <img src="time_d_formula.png"> 
-</p>
+$$T=\frac{T_0}{\sqrt{1-\frac{2\cdot g\cdot R}{c^2}}}$$
 
 has such a small second term in the denominator that excessive numerical accuracy is required to evaluate it directly. Using a binomial expansion:
 
-<p align="center">
-    <img src="time_dilation_formula_binom.jpg"> 
-</p>
+$$\frac{1}{\sqrt{1-x}} = 1 + \frac{x}{2} + \frac{3}{8} x^2 + \frac{5}{16} + x^3 + ...$$
 
 so that the first approximation to the time expression is:
 
-<p align="center">
-    <img src="time_d_formula_time.png"> 
-</p>
+$$T=T_0 (1 + \frac{g\cdot R}{c^2} + \frac{3\cdot g^2\cdot R^2}{2\cdot c^4} + ...) = T_0 (1 + 6.95\cdot 10^{-10} + 7.2\cdot 10^{-19} + ...)$$
 
-The numerical values were calculated using g = grav (m/s2)array in MATLAB, R = R array in MATLAB (geoid height(m) + h_over_geoid(m)), and c=2.997E8 m/s.
+The numerical values were calculated using $g = grav (\frac{m}{s^2})$ array in MATLAB, R = R array in MATLAB (geoid height(m) + h_over_geoid(m)), and $c=2.997\cdot10^{8} \frac{m}{s}$.
 
 Soruces:
  - https://en.wikipedia.org/wiki/Gravitational_time_dilation
@@ -49,7 +43,7 @@ Soruces:
 
 ## Time Dilation on MATLAB:
 
-Since the time difference is very small, it is converted to [fs (femtosecond)](https://en.wikipedia.org/wiki/Femtosecond). This unit is equivalent to 1E-15 seconds. 15389587415.8 fs value has been added on fs to indicate sensitivity and to indicate it on the graph.
+Since the time difference is very small, it is converted to [fs (femtosecond)](https://en.wikipedia.org/wiki/Femtosecond). This unit is equivalent to $10^{-15}$ seconds. $15389587415.8 fs$ value has been added on fs to indicate sensitivity and to indicate it on the graph.
 
 **Calculating Time Dilation on MATLAB**
 
