@@ -25,21 +25,35 @@ Gravitational time dilation was first described by Albert Einstein in 1907 as a 
 
 The gravitational time dilation expression:
 
+<br>
+
 $$T=\frac{T_0}{\sqrt{1-\frac{2\cdot g\cdot R}{c^2}}}$$
+
+<br>
 
 has such a small second term in the denominator that excessive numerical accuracy is required to evaluate it directly. Using a binomial expansion:
 
+<br>
+
 $$\frac{1}{\sqrt{1-x}} = 1 + \frac{x}{2} + \frac{3}{8} x^2 + \frac{5}{16} + x^3 + ...$$
+
+<br>
 
 so that the first approximation to the time expression is:
 
+<br>
+
 $$T=T_0 (1 + \frac{g\cdot R}{c^2} + \frac{3\cdot g^2\cdot R^2}{2\cdot c^4} + ...) = T_0 (1 + 6.95\cdot 10^{-10} + 7.2\cdot 10^{-19} + ...)$$
+
+<br>
 
 The numerical values were calculated using $g = grav (\frac{m}{s^2})$ array in MATLAB, $R = R$ array in MATLAB <code>(geoid height(m) + h_over_geoid(m))</code>, and $c=2.997\cdot10^{8} \frac{m}{s}$.
 
 Soruces:
  - https://en.wikipedia.org/wiki/Gravitational_time_dilation
  - http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/gratim.html#c5 
+
+<br>
 
 ## Time Dilation on MATLAB:
 
