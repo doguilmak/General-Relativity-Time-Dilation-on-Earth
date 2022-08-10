@@ -35,7 +35,7 @@ so that the first approximation to the time expression is:
 
 $$T=T_0 (1 + \frac{g\cdot R}{c^2} + \frac{3\cdot g^2\cdot R^2}{2\cdot c^4} + ...) = T_0 (1 + 6.95\cdot 10^{-10} + 7.2\cdot 10^{-19} + ...)$$
 
-The numerical values were calculated using $g = grav (\frac{m}{s^2})$ array in MATLAB, R = R array in MATLAB (geoid height(m) + h_over_geoid(m)), and $c=2.997\cdot10^{8} \frac{m}{s}$.
+The numerical values were calculated using $g = grav (\frac{m}{s^2})$ array in MATLAB, $R = R$ array in MATLAB <code>(geoid height(m) + h_over_geoid(m))</code>, and $c=2.997\cdot10^{8} \frac{m}{s}$.
 
 Soruces:
  - https://en.wikipedia.org/wiki/Gravitational_time_dilation
