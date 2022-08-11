@@ -23,7 +23,15 @@ Gravitational time dilation is a form of time dilation, an actual difference of 
 
 Gravitational time dilation was first described by Albert Einstein in 1907 as a consequence of special relativity in accelerated frames of reference. In general relativity, it is considered to be a difference in the passage of proper time at different positions as described by a metric tensor of space-time. The existence of gravitational time dilation was first confirmed directly by the Pound–Rebka experiment in 1959, and later refined by Gravity Probe A and other experiments.
 
-The gravitational time dilation expression:
+A clock in a gravitational field runs more slowly according to the gravitational time dilation relationship from [general relativity](http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/conrel.html#c2). 
+
+<br>
+
+$$T=\frac{T_0}{\sqrt{1-\frac{G\cdot M}{R\cdot c^2}}}$$
+
+<br>
+
+This is distinct from the  [time dilation](http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/tdil.html#c2)  from relative motion where $T$ is the time interval measured by a clock far away from the mass. For a clock on the surface of the Earth, the gravitational time dilation expression:
 
 <br>
 
@@ -31,7 +39,13 @@ $$T=\frac{T_0}{\sqrt{1-\frac{2\cdot g\cdot R}{c^2}}}$$
 
 <br>
 
-has such a small second term in the denominator that excessive numerical accuracy is required to evaluate it directly. Using a binomial expansion:
+$T_0$ = Duration of an event in a moving reference frame
+$T$ = Duration of the same event relative to a stationary reference frame
+$g$  = Acceleration due to gravity
+$R$ = Radius of the Earth
+$c$ = Speed of light
+
+Equation has such a small second term in the denominator that excessive numerical accuracy is required to evaluate it directly. Using a binomial expansion:
 
 <br>
 
@@ -47,7 +61,7 @@ $$T=T_0 (1 + \frac{g\cdot R}{c^2} + \frac{3\cdot g^2\cdot R^2}{2\cdot c^4} + ...
 
 <br>
 
-The numerical values were calculated using $g = grav (\frac{m}{s^2})$ array in MATLAB, $R = R$ array in MATLAB <code>(geoid height(m) + h_over_geoid(m))</code>, and $c=2.997\cdot10^{8} \frac{m}{s}$.
+The numerical values were calculated using `grav=egmnum(:, 4); % mGal` `grav=grav/1E5; % mGal -> m/s2` array in MATLAB, <code>(geoid height(m) + h_over_geoid(m))</code>, and $c=2.997\cdot10^{8} \frac{m}{s}$.
 
 Soruces:
  - https://en.wikipedia.org/wiki/Gravitational_time_dilation
@@ -57,7 +71,7 @@ Soruces:
 
 ## Time Dilation on MATLAB:
 
-Since the time difference is very small, it is converted to [fs (femtosecond)](https://en.wikipedia.org/wiki/Femtosecond). This unit is equivalent to $10^{-15}$ seconds. $15389587415.8 fs$ value has been added on fs to indicate sensitivity and to indicate it on the graph.
+Since the time difference is very small, it is converted to [fs (femtosecond)](https://en.wikipedia.org/wiki/Femtosecond). This unit is equivalent to $10^{-15}$ seconds. $15389587415.8 \ fs$ value has been added on fs to indicate sensitivity and to indicate it on the graph.
 
 **Calculating Time Dilation on MATLAB**
 
