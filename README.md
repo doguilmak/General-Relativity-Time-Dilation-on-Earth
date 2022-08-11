@@ -46,7 +46,7 @@ $$T=\frac{T_0}{\sqrt{1-\frac{2\cdot g\cdot R}{c^2}}}$$
 
  - $R$ = Radius of the Earth
 
- - $c$ = Speed of light ( $as 299792458 \frac{m}{s}$ )
+ - $c$ = Speed of light (as $299792458 \frac{m}{s}$ )
 
 <br>
 
