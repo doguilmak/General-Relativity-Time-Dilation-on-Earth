@@ -40,9 +40,13 @@ $$T=\frac{T_0}{\sqrt{1-\frac{2\cdot g\cdot R}{c^2}}}$$
 <br>
 
 $T_0$ = Duration of an event in a moving reference frame
+
 $T$ = Duration of the same event relative to a stationary reference frame
+
 $g$  = Acceleration due to gravity
+
 $R$ = Radius of the Earth
+
 $c$ = Speed of light
 
 Equation has such a small second term in the denominator that excessive numerical accuracy is required to evaluate it directly. Using a binomial expansion:
