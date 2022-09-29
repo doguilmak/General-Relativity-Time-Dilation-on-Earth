@@ -1,5 +1,10 @@
+**<h1 align=center><font size = 5>General Relativity Time Dilation on Earth</font></h1>**
 
-# General Relativity Time Dilation on Earth
+ <img src="https://www.wondriumdaily.com/wp-content/uploads/2020/08/Misunderstanding-Relativity_Time-Dilation_QBS_Thumbnail.jpg" width=1000 height=400  alt="wondriumdaily.com">
+
+<small>Picture Source: <a  href="https://www.wondriumdaily.com/">wondriumdaily.com</a></small>
+
+<br>
 
 ## Project Statement
 
@@ -12,7 +17,7 @@ The datasets available for the study were created through the .gdf files on the 
 ### EGM2008_world_gravity.gdf dataset info:
 
 <p align="center">
-    <img src="gdf_file_head.png"> 
+    <img src="gdf_file_head.png" width=1000> 
 </p>
 
 ## Time Dilation:
@@ -21,7 +26,7 @@ The datasets available for the study were created through the .gdf files on the 
 
 Gravitational time dilation is a form of time dilation, an actual difference of elapsed time between two events as measured by observers situated at varying distances from a gravitating mass. The lower the gravitational potential, the slower time passes, speeding up as the gravitational potential increases.
 
-Gravitational time dilation was first described by Albert Einstein in 1907 as a consequence of special relativity in accelerated frames of reference. In general relativity, it is considered to be a difference in the passage of proper time at different positions as described by a metric tensor of space-time. The existence of gravitational time dilation was first confirmed directly by the Pound–Rebka experiment in 1959, and later refined by Gravity Probe A and other experiments.
+Gravitational time dilation was first described by *Albert Einstein* in 1907 as a consequence of special relativity in accelerated frames of reference. In general relativity, it is considered to be a difference in the passage of proper time at different positions as described by a metric tensor of space-time. The existence of gravitational time dilation was first confirmed directly by the *Pound–Rebka* experiment in 1959, and later refined by *Gravity Probe A* and other experiments.
 
 A clock in a gravitational field runs more slowly according to the gravitational time dilation relationship from [general relativity](http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/conrel.html#c2). 
 
