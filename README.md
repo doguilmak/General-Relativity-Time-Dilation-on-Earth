@@ -17,7 +17,7 @@ The datasets available for the study were created through the .gdf files on the 
 ### EGM2008_world_gravity.gdf dataset info:
 
 <p align="center">
-    <img src="gdf_file_head.png" width=1000> 
+    <img src="gdf_file_head.png"> 
 </p>
 
 ## Time Dilation:
