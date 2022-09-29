@@ -20,7 +20,7 @@ The datasets available for the study were created through the .gdf files on the 
     <img src="gdf_file_head.png"> 
 </p>
 
-## Time Dilation:
+## Time Dilation
 
 ### What is time dilation?
 
